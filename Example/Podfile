@@ -1,0 +1,6 @@
+use_frameworks!
+target 'JVInputValidator_Tests' do
+  pod 'JVInputValidator', :path => '../'
+  
+  
+end

@@ -1,0 +1,16 @@
+PODS:
+  - JVInputValidator (0.1.0)
+
+DEPENDENCIES:
+  - JVInputValidator (from `../`)
+
+EXTERNAL SOURCES:
+  JVInputValidator:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JVInputValidator: 40c6a6bd5ba7239bbdb7edf3cdb373101e693bff
+
+PODFILE CHECKSUM: 09ef87fd563944e38f14d15ef1aa769b54e0460e
+
+COCOAPODS: 1.6.0.beta.1
