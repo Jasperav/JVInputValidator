@@ -2,7 +2,7 @@ public enum ValidationState {
     case valid, invalid
 }
 
-public struct InputValidator: InputValidateable {
+public struct InputValidator {
     public private (set) var validationState: ValidationState
     public var changedValidationState: ((ValidationState) -> ())!
     
@@ -22,6 +22,5 @@ public struct InputValidator: InputValidateable {
 }
 
 public protocol InputValidateable {
-    var validationState: ValidationState { get }
-    var changedValidationState: ((ValidationState) -> ())! { get }
+    var inputValidator: InputValidator { get set }
 }
